@@ -1,0 +1,151 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+}
+
+#primary {
+    display: flex;
+
+}
+
+#mainhead {
+    font-size: 50px;
+    width: 29%;
+    margin: 5px auto;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container {
+    margin: 0px 0px 0px 0px;
+    width: 700px;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid red;
+    box-shadow: 0 0 15px 5px #aa9696
+}
+
+.head1 {
+    border: 2px solid rgb(245, 10, 10);
+    margin: 45px 20px 5px 0px;
+    width: 500px;
+    height: 135px;
+    box-shadow: 0 0 15px 5px #aa9696
+}
+
+.head1 .form {
+    margin: 0px auto;
+    width: 375px;
+}
+
+.head1 .form label {
+    margin: 5px;
+    width: 375px;
+    font-size: 23px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #7a4d4d;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+.form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #d19d9d;
+}
+
+.form input[type="text"],
+.form input[type="number"],
+.form input[type="date"] {
+    width: 95%;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #f3eded;
+    color: black;
+    border: none;
+    border-radius: 15px;
+}
+
+.button1 {
+    width: 30%;
+    margin: 5px 0px 5px 180px;
+    padding: 10px;
+    background-color: #8484d3;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    border-radius: 28px;
+    cursor: pointer;
+}
+
+.button2 {
+    width: 40%;
+    margin: 5px 0px 5px 180px;
+    padding: 10px;
+    background-color: #8484d3;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    border-radius: 28px;
+    cursor: pointer;
+
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #111;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #fff;
+    color: black;
+}
+
+#expenseTable{
+    background-color: #8484d3;
+      border-radius: 28px;
+      color: white;
+  }
+
+.text-red {
+    color: red;
+}
+
+.text-green {
+    color: green;
+}
+
+.remaining-budget {
+    font-size: 23px;
+    color: #d19d9d;
+    border: 2px solid rgb(245, 10, 10);
+    margin: 19px 20px 0px 0px;
+    width: 494px;
+    height: 57px;
+    box-shadow: 0 0 15px 5px #aa9696;
+    float: left;
+    padding: 5px 0px 5px 5px;
+    font-weight: bold;
+
+}
